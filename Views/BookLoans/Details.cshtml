@@ -1,0 +1,28 @@
+@model LibraryManagement.Models.BookLoan;
+
+@{
+  ViewData["Title"] = "Book Loan Details";
+}
+
+<h1>Book Loan Details</h1>
+
+<div>
+  <p><strong>Book Title:</strong> @Model.BookTitle.Title</p>
+  <p><strong>Library:</strong> @Model.Library.LibraryName</p>
+  <p><strong>Reader:</strong> @Model.Reader.Name</p>
+  <p><strong>Borrow Date:</strong> @Model.BorrowDate.ToShortDateString()</p>
+  <p><strong>Return Date:</strong> @(Model.ReturnDate?.ToShortDateString() ?? "Not Returned")</p>
+</div>
+
+<p>
+  <a
+    asp-action="Edit"
+    asp-route-bookTitleId="@Model.BookTitleId"
+    asp-route-libraryId="@Model.LibraryId"
+    asp-route-readerCardId="@Model.ReaderCardId"
+    class="btn btn-primary"
+  >
+    Edit
+  </a>
+  <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

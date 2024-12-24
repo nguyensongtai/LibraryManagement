@@ -1,0 +1,97 @@
+@model PagedList.IPagedList<LibraryManagement.Models.BookLoan>
+@using PagedList.Mvc;
+
+@{
+  ViewData["Title"] = "Loans List";
+}
+
+@{
+  int index = (Model.PageNumber - 1) * Model.PageSize + 1;
+}
+
+<h1>Book Loans</h1>
+
+<p>
+  <a asp-action="Create" class="btn btn-primary">Add New Loan</a>
+</p>
+
+<table class="table table-bordered table-hover">
+  <thead class="table-light">
+    <tr>
+      <th>STT</th>
+      <th>Book Title Code</th>
+      <th>Library Code</th>
+      <th>Reader Code</th>
+      <th>Borrow Date</th>
+      <th>Return Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null && Model.Any())
+    {
+      @foreach (var loan in Model)
+      {
+        <tr>
+          <td>@index</td>
+          <td>@loan.BookTitle?.Title</td>
+          <td>@loan.Library?.LibraryName</td>
+          <td>@loan.Reader?.Name</td>
+          <td>@loan.BorrowDate.ToString("dd/MM/yyyy")</td>
+          <td>@(loan.ReturnDate?.ToString("dd/MM/yyyy") ?? "Not Returned")</td>
+          <td>
+            <a asp-action="Edit" asp-route-bookTitleId="@loan.BookTitleId"
+              asp-route-libraryId="@loan.LibraryId" asp-route-readerCardId="@loan.ReaderCardId"
+              class="btn btn-warning btn-sm">
+              Edit
+            </a>
+            <a asp-action="Details" asp-route-bookTitleId="@loan.BookTitleId"
+              asp-route-libraryId="@loan.LibraryId" asp-route-readerCardId="@loan.ReaderCardId"
+              class="btn btn-info btn-sm">
+              Details
+            </a>
+            <a asp-action="Delete" asp-route-bookTitleId="@loan.BookTitleId"
+              asp-route-libraryId="@loan.LibraryId" asp-route-readerCardId="@loan.ReaderCardId"
+              class="btn btn-danger btn-sm">
+              Delete
+            </a>
+          </td>
+        </tr>
+        index++;
+      }
+    }
+    else
+    {
+      <tr>
+        <td colspan="7" class="text-center">No loans available.</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+@if (Model != null && Model.Any())
+{
+  <div class="d-flex justify-content-center mt-3">
+  <div>
+    @if (Model.PageCount > 10)
+      {
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" asp-action="Index"
+              asp-route-page="@(Model.PageNumber - 1)">Previous</a>
+          </li>
+          @for (var i = 1; i <= Model.PageCount; i++)
+          {
+            <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+              <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+          }
+
+          <li class="page-item">
+            <a class="page-link" asp-action="Index" asp-route-page="@(Model.PageNumber + 1)">Next</a>
+          </li>
+        </ul>
+      }
+    </div>
+  </div>
+}

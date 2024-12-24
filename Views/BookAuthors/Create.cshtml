@@ -1,0 +1,18 @@
+@model LibraryManagement.Models.BookAuthor
+
+<h1>Add Book Author</h1>
+
+<form asp-action="Create" method="post">
+  <div class="form-group">
+    <label asp-for="BookTitleId" class="form-label">Book Title</label>
+    <select asp-for="BookTitleId" class="form-select" asp-items="ViewBag.BookTitles"></select>
+    <span asp-validation-for="BookTitleId" class="text-danger"></span>
+  </div>
+  <div class="form-group mt-3">
+    <label asp-for="AuthorName" class="form-label">Author Name</label>
+    <input asp-for="AuthorName" class="form-control" />
+    <span asp-validation-for="AuthorName" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary mt-3">Save</button>
+  <a asp-action="Index" class="btn btn-secondary mt-3">Cancel</a>
+</form>

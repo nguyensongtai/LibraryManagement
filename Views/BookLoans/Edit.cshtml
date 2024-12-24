@@ -1,0 +1,35 @@
+@model LibraryManagement.Models.BookLoan
+
+@{
+  ViewData["Title"] = "Edit Book Loan";
+}
+
+<h1>Edit Book Loan</h1>
+
+<form asp-action="Edit" method="post">
+  <div class="form-group">
+    <label asp-for="BookTitleId" class="control-label mb-1">Book Title</label>
+    <select asp-for="BookTitleId" class="form-select" asp-items="ViewBag.BookTitles" disabled></select>
+    <span asp-validation-for="BookTitleId" class="text-danger mt-1"></span>
+  </div>
+  <div class="form-group mt-3">
+    <label asp-for="LibraryId" class="control-label mb-1">Library</label>
+    <select asp-for="LibraryId" class="form-select" asp-items="ViewBag.Libraries" disabled></select>
+    <span asp-validation-for="LibraryId" class="text-danger mt-1"></span>
+  </div>
+  <div class="form-group mt-3">
+    <label asp-for="ReaderCardId" class="control-label mb-1">Reader</label>
+    <select asp-for="ReaderCardId" class="form-select" asp-items="ViewBag.Readers" disabled></select>
+    <span asp-validation-for="ReaderCardId" class="text-danger mt-1"></span>
+  </div>
+  <div class="form-group mt-3">
+    <label asp-for="BorrowDate" class="control-label mb-1">Borrow Date</label>
+    <input asp-for="BorrowDate" class="form-control" type="date" disabled/>
+  </div>
+  <div class="form-group mt-3">
+    <label asp-for="ReturnDate" class="control-label">Return Date</label>
+    <input asp-for="ReturnDate" class="form-control" type="date" value="@(Model.ReturnDate.HasValue ? Model.ReturnDate.Value.ToString("yyyy-MM-dd") : "")" />
+  </div>
+  <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+  <a asp-action="Index" class="btn btn-secondary  mt-3">Cancel</a>
+</form>

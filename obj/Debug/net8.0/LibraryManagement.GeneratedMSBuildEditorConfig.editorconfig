@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LibraryManagement
+build_property.RootNamespace = LibraryManagement
+build_property.ProjectDir = /Users/tainguyen/Đại Học/net/DACK/LibraryManagement/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/tainguyen/Đại Học/net/DACK/LibraryManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookAuthors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0F1dGhvcnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookAuthors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0F1dGhvcnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookAuthors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0F1dGhvcnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookAuthors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0F1dGhvcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookAuthors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0F1dGhvcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookCopies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0NvcGllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookCopies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0NvcGllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookCopies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0NvcGllcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookCopies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0NvcGllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookCopies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0NvcGllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookLoans/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0xvYW5zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookLoans/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0xvYW5zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookLoans/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0xvYW5zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookLoans/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0xvYW5zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookLoans/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va0xvYW5zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookTitles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va1RpdGxlcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookTitles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va1RpdGxlcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookTitles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va1RpdGxlcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookTitles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va1RpdGxlcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/BookTitles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va1RpdGxlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Libraries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWVzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Libraries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWVzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Libraries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWVzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Libraries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWVzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Libraries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGlicmFyaWVzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Readers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhZGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Readers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhZGVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Readers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhZGVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Readers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhZGVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Readers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVhZGVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tainguyen/Đại Học/net/DACK/LibraryManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ntohq707r3

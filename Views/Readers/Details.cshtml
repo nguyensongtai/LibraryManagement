@@ -1,0 +1,16 @@
+@model LibraryManagement.Models.Reader
+
+<h1 class="mb-4">Reader Details</h1>
+
+<dl class="row">
+  <dt class="col-sm-2">Reader Name</dt>
+  <dd class="col-sm-10">@Model.Name</dd>
+
+  <dt class="col-sm-2">Address</dt>
+  <dd class="col-sm-10">@Model.Address</dd>
+
+  <dt class="col-sm-2">Phone Number</dt>
+  <dd class="col-sm-10">@Model.PhoneNumber</dd>
+</dl>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

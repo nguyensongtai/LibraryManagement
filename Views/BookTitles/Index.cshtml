@@ -1,0 +1,40 @@
+@model IEnumerable<LibraryManagement.Models.BookTitle>
+
+<h1 class="mb-4">Books List</h1>
+<a asp-action="Create" class="btn btn-primary mb-3">Add New Book</a>
+
+<table class="table table-bordered table-hover">
+  <thead class="table-light">
+    <tr>
+      <th>Title</th>
+      <th>Publisher Name</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null && Model.Any())
+    {
+      @foreach (var item in Model)
+      {
+        <tr>
+          <td>@item.Title</td>
+          <td>@item.Publisher?.Name</td>
+          <td>
+            <a asp-action="Details" asp-route-id="@item.BookTitleId"
+              class="btn btn-info btn-sm">Details</a>
+            <a asp-action="Edit" asp-route-id="@item.BookTitleId"
+              class="btn btn-warning btn-sm">Edit</a>
+            <a asp-action="Delete" asp-route-id="@item.BookTitleId"
+              class="btn btn-danger btn-sm">Delete</a>
+          </td>
+        </tr>
+      }
+    }
+    else
+    {
+      <tr>
+        <td colspan="3" class="text-center">No publishers available.</td>
+      </tr>
+    }
+  </tbody>
+</table>

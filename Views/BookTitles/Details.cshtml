@@ -1,0 +1,17 @@
+@model LibraryManagement.Models.BookTitle
+
+<h1>Book Details</h1>
+
+<div>
+  <h4>BookTitle</h4>
+  <hr />
+  <dl class="row">
+    <dt class="col-sm-2">Title</dt>
+    <dd class="col-sm-10">@Model.Title</dd>
+
+    <dt class="col-sm-2">Publisher Name</dt>
+    <dd class="col-sm-10">@Model.Publisher.Name</dd>
+  </dl>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

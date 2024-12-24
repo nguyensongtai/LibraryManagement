@@ -1,0 +1,52 @@
+@model IEnumerable<LibraryManagement.Models.Publisher>
+
+@{
+  ViewData["Title"] = "Publishers List";
+}
+
+<h1 class="mt-4 mb-3">Publishers</h1>
+
+<p>
+  <a asp-action="Create" class="btn btn-primary">Create New Publisher</a>
+</p>
+
+<table class="table table-bordered table-hover">
+  <thead class="table-light">
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.First().Name) <!-- Name column -->
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.First().Address) <!-- Address column -->
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.First().PhoneNumber) <!-- Phone Number column -->
+      </th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null && Model.Any())
+    {
+      foreach (var publisher in Model)
+      {
+        <tr>
+          <td>@Html.DisplayFor(modelItem => publisher.Name)</td>
+          <td>@Html.DisplayFor(modelItem => publisher.Address)</td>
+          <td>@Html.DisplayFor(modelItem => publisher.PhoneNumber)</td>
+          <td>
+            <a asp-action="Edit" asp-route-id="@publisher.PublisherId" class="btn btn-warning btn-sm">Edit</a>
+            <a asp-action="Details" asp-route-id="@publisher.PublisherId" class="btn btn-info btn-sm">Details</a>
+            <a asp-action="Delete" asp-route-id="@publisher.PublisherId" class="btn btn-danger btn-sm">Delete</a>
+          </td>
+        </tr>
+      }
+    }
+    else
+    {
+      <tr>
+        <td colspan="4" class="text-center">No publishers available.</td>
+      </tr>
+    }
+  </tbody>
+</table>

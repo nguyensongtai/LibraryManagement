@@ -1,0 +1,42 @@
+@model IEnumerable<LibraryManagement.Models.Reader>
+
+<h1 class="mb-4">Readers</h1>
+<a asp-action="Create" class="btn btn-primary mb-3">Add New Reader</a>
+
+<table class="table table-bordered table-hover">
+  <thead class="table-light">
+    <tr>
+      <th>Reader Name</th>
+      <th>Address</th>
+      <th>Phone Number</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @if (Model != null && Model.Any())
+    {
+      @foreach (var reader in Model)
+      {
+        <tr>
+          <td>@reader.Name</td>
+          <td>@reader.Address</td>
+          <td>@reader.PhoneNumber</td>
+          <td>
+            <a asp-action="Details" asp-route-id="@reader.ReaderCardId"
+              class="btn btn-info btn-sm">Details</a>
+            <a asp-action="Edit" asp-route-id="@reader.ReaderCardId"
+              class="btn btn-warning btn-sm">Edit</a>
+            <a asp-action="Delete" asp-route-id="@reader.ReaderCardId"
+              class="btn btn-danger btn-sm">Delete</a>
+          </td>
+        </tr>
+      }
+    }
+    else
+    {
+      <tr>
+        <td colspan="4" class="text-center">No publishers available.</td>
+      </tr>
+    }
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+@model LibraryManagement.Models.BookCopy
+
+<h1>Add Book Copy</h1>
+
+<form asp-action="Create" method="post">
+  <div class="mb-3">
+    <label asp-for="BookTitleId" class="form-label">Book Title</label>
+    <select asp-for="BookTitleId" class="form-select" asp-items="ViewBag.BookTitles"></select>
+    <span asp-validation-for="BookTitleId" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <label asp-for="LibraryId" class="form-label"> Library Name </label>
+    <select asp-for="LibraryId" class="form-select" asp-items="ViewBag.Libraries"></select>
+    <span asp-validation-for="LibraryId" class="text-danger"></span>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Quantity" class="form-label"></label>
+    <input asp-for="Quantity" class="form-control" />
+    <span asp-validation-for="Quantity" class="text-danger"></span>
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+  <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

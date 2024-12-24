@@ -1,0 +1,26 @@
+@model LibraryManagement.Models.BookCopy
+
+<h1>Edit Book Copy</h1>
+
+<form asp-action="Edit" method="post">
+  <input type="hidden" asp-for="BookTitleId" />
+  <input type="hidden" asp-for="LibraryId" />
+
+  <div class="mb-3">
+    <label asp-for="BookTitleId" class="form-label">Book Title</label>
+    <select asp-for="BookTitleId" class="form-select" asp-items="ViewBag.BookTitles"
+      disabled></select>
+  </div>
+  <div class="mb-3">
+    <label asp-for="LibraryId" class="form-label">Library</label>
+    <select asp-for="LibraryId" class="form-select" asp-items="ViewBag.Libraries" disabled></select>
+  </div>
+  <div class="mb-3">
+    <label asp-for="Quantity" class="form-label"></label>
+    <input asp-for="Quantity" class="form-control" />
+    <span asp-validation-for="Quantity" class="text-danger"></span>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Save</button>
+  <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
